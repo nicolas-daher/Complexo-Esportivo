@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Project Path="../ComplexoEsportivo.Tests/ComplexoEsportivo.Tests.csproj" />
+  <Project Path="ComplexoEsportivo.API.csproj" />
+</Solution>
