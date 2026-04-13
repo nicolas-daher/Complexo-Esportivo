@@ -25,7 +25,7 @@ public class ReservaService
             r.DataHoraFim > inicio);
 
         if (conflito)
-            return (false, "Horário já reservado para esta quadra.", null);
+            return (false, "Horário já reservado para esta quadra neste mesmo período.", null);
 
         var reserva = new Reserva
         {
