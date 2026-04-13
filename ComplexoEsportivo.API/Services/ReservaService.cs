@@ -17,7 +17,7 @@ public class ReservaService
     {
         var quadraExiste = _storage.Quadras.Any(q => q.Id == quadraId);
         if (!quadraExiste)
-            return (false, "Quadra não foi encontrada.", null);
+            return (false, "Quadra não foi encontrada", null);
 
         bool conflito = _storage.Reservas.Any(r =>
             r.QuadraId == quadraId &&
